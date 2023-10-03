@@ -1,0 +1,117 @@
+@media (400px <= width <= 700px) {
+    .contents{ line-height: 1.4; }
+
+  }
+  
+li {
+   list-style: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+}
+
+header{
+    width: 100%	;
+    box-shadow: 10px 10px 8px #888888;
+  
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+nav ul li{
+    display: inline-block;
+}
+.contents{
+    display: flex;
+    text-align: center;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    /*border: 1px solid black; */
+    width: 100%; 
+}
+.photo{
+    transition: 0.2s ease-in-out;
+}
+.photo:hover{
+    font-size: 10rem;
+    background-color: rgb(227, 218, 218);
+    border-radius: 50px;
+}
+.photo img{
+    
+    border-radius: 50px;
+}
+
+img{
+    width: 350px;
+    height: 300px;
+}
+.pays{
+    position: relative;
+    width: 25%;
+}
+
+.description{
+    position: absolute ;
+    top: 150px;
+    left: 200px;
+    right: 150px;
+    bottom: 150px;
+    transform: translate(-25px,-45px);
+}
+footer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.footer{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+/************************** Côte d'ivoire******************/
+.ivoire{
+    background-color: #ccc;
+    border: 1px solid black;
+}
+.hader{
+    text-align: center;
+}
+.pays-ci{
+    
+    /*align-items: center;
+    text-align: center;
+    height: 700px;
+    vertical-align: middle;
+    justify-content: center;
+    transition: step-end;*/
+    
+}
+.contents-ci{
+    display: flex;
+    height: 700px;
+    text-align: center;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+}
+.pays-ci{
+    position: relative;
+}
+
+.footer-ci{
+    /*border: 2px solid black;*/
+    height: 30px;
+    vertical-align: middle;
+}
+
